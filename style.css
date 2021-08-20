@@ -1,3 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  font-family: "Red Hat Display", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+body {
+  background-color: #7280a7;
+}
+
+.container {
+  margin: 100px auto;
+  background-color: white;
+  max-width: 450px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.container .hero-box {
+  width: 100%;
+}
+.container .hero-box img {
+  width: 100%;
+}
+.container .content {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 50px;
+  color: #1f2f56;
+}
+.container .content .title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.container .content .title h1 {
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.container .content .title p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  color: #7280a7;
+}
+.container .content .price-box {
+  width: 100%;
+  border-radius: 10px;
+  background-color: #f5f7ff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  position: relative;
+}
+.container .content .price-box .icon-box {
+  margin-right: 15px;
+  height: 53px;
+}
+.container .content .price-box .icon-box img {
+  height: 100%;
+}
+.container .content .price-box .text {
+  line-height: 25px;
+  font-weight: 900;
+}
+.container .content .price-box .text span {
+  font-weight: 500;
+  color: #7280a7;
+}
+.container .content .price-box a {
+  color: #3829e0;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: underline;
+  position: absolute;
+  cursor: pointer;
+  right: 20px;
+}
+.container .content .price-box a:active {
+  color: #260080;
+}
+@media screen and (max-width: 475px) {
+  .container .content {
+    margin: 100px 20px;
+  }
+}
+.container button {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  color: white;
+  background-color: #3829e0;
+  margin-bottom: 20px;
+}
+.container button:active {
+  background-color: #260080;
+}
+.container .cancel {
+  background: none;
+  color: #7280a7;
+}
+.container .cancel:active {
+  background: none;
+  color: #260080;
+}
+@media screen and (max-width: 475px) {
+  .container {
+    margin: 100px 20px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
