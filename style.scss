@@ -93,7 +93,7 @@ body {
     }
 
     @media screen and (max-width: 475px) {
-      margin: 100px 20px;
+      margin: 30px 20px;
     }
   }
 
@@ -117,6 +117,7 @@ body {
   .cancel {
     background: none;
     color: $Desaturatedblue;
+    margin-bottom: 0;
 
     &:active {
       background: none;

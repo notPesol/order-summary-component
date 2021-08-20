@@ -82,7 +82,7 @@ body {
 }
 @media screen and (max-width: 475px) {
   .container .content {
-    margin: 100px 20px;
+    margin: 30px 20px;
   }
 }
 .container button {
@@ -103,6 +103,7 @@ body {
 .container .cancel {
   background: none;
   color: #7280a7;
+  margin-bottom: 0;
 }
 .container .cancel:active {
   background: none;
